@@ -1,0 +1,14 @@
+PROGRAM EX0401
+IMPLICIT NONE
+INTEGER :: tar, t100, t268
+REAL::a,b
+DO tar=-100,10000
+t100 = tar + 100
+a=SQRT(REAL(t100))
+t268 = tar + 268
+b=SQRT(REAL(t268))
+IF (MOD(a,1.0)==0.AND.MOD(b,1.0)==0) THEN
+WRITE(*,*) tar
+END IF
+END DO
+END
