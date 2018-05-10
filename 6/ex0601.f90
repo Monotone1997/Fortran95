@@ -1,3 +1,4 @@
+!计算出 π 值
 SUBROUTINE init_random_seed()
 INTEGER :: i, n, clock
 INTEGER, ALLOCATABLE :: seed(:)
