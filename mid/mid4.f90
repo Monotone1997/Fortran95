@@ -1,3 +1,4 @@
+!杨辉三角
 program main
 implicit none
 integer i,j,n,sum
